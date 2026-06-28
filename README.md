@@ -60,3 +60,12 @@ Artificial intelligence tools were also used during development to help understa
 ---
 
 **Everything below this section (methodology, model description, backtesting, and usage) is largely inherited from the original project so users can understand how the prediction engine works. New features will be documented as they are added.**
+
+| Command                                 | Description             |
+| --------------------------------------- | ----------------------- |
+| `npm install`                           | Install dependencies    |
+| `node predict.mjs spain germany`        | Predict one match       |
+| `node simulate.mjs spain germany 10000` | Monte Carlo simulation  |
+| `node calibrate.mjs`                    | Recalibrate Elo ratings |
+| `node backtest.mjs`                     | Evaluate model accuracy |
+
